@@ -17,3 +17,9 @@ print(ans)
 
 l = '\n'.join(ans)
 print(l)
+
+num3 = int(input("Enter a number: "))
+num4 = int(input("Enter another number: "))
+
+sum1 = float((num3+num2))
+print("The sum of " + str(num3) + " and " + str(num4) + " is " + str(sum1))
