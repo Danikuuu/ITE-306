@@ -1,0 +1,37 @@
+print("Catering Reservation")
+
+rate_perday = 15000
+sound_system_fee= 4500
+stage_decor = 3000
+catering = 35000
+vat = .12
+
+print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+
+print("Rate per day: ", rate_perday)
+print("Sound System Fee: ", sound_system_fee)
+print("Stage Decoration Fee: ", stage_decor)
+print("Catering Fee: ", catering)
+print("EVAT: ", vat)
+
+print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+print("\n")
+
+num_days = int(input("Enter the number of days : "))
+
+print("\n")
+
+amount = rate_perday * num_days
+total = amount + sound_system_fee + stage_decor + catering
+tax = total * vat
+bill = total + tax
+
+print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+
+print("Number Of Days", num_days)
+print("Total amount for", num_days, " days : ", amount)
+print("Additional Fees: ", total)
+print("Tax: ", tax)
+print("Final Bill: ", bill)
+
+print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
